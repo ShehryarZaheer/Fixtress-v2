@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroundprint"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#CC1E90FF"
+        card_view:cardCornerRadius="25dp"
+        card_view:contentPadding="10dp">
+
+        <LinearLayout
+            android:weightSum="100"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="20"
+                android:text="Ehsan"
+                android:textColor="@android:color/white"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:id="@+id/tvQuestion8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <ImageView
+                android:src="@drawable/calm"
+                android:id="@+id/ivQuestion8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="70"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        card_view:cardCornerRadius="25dp"
+        app:cardBackgroundColor="#CC1E90FF"
+        card_view:contentPadding="10dp">
+
+        <ImageButton
+            android:id="@+id/btnYes"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="65dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button_selector"
+            android:padding="5dp"
+            android:src="@drawable/yesimage"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/btnNo"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="65dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/button_selector"
+            android:padding="5dp"
+            android:src="@drawable/noimage" />
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

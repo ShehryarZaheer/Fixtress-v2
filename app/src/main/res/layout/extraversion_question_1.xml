@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroundprint"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#CCE9967A"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="25dp">
+
+        <LinearLayout
+            android:weightSum="100"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="70"
+                android:textColor="@android:color/white"
+                android:text="Ehsan"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:id="@+id/tvQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion1"
+                android:gravity="center"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:theme="@style/BrandedRadioButton"
+                android:layout_height="0dp">
+
+                <RadioButton
+                    android:id="@+id/rbAwkward"
+                    android:text="Awkward               "
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rbHappy"
+                    android:text="Happy and Exited"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

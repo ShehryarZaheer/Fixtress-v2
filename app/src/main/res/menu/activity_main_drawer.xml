@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@drawable/video_player"
+            android:title="Stress Relieving Content" />
+
+
+        <item
+            android:id="@+id/nav_depression"
+            android:icon="@drawable/patient"
+            android:title="Depression Recommendations" />
+
+        <item
+            android:id="@+id/nav_HR"
+            android:icon="@drawable/big_heart"
+            android:title="HR Recommendations" />
+
+        <item
+            android:id="@+id/nav_pregnancy"
+            android:icon="@drawable/pregnant_woman_and_fetus"
+            android:title="Pregnancy Recommendations" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/analytics_chart_symbol"
+            android:title="Heart Rate Graph" />
+
+        <item
+            android:id="@+id/nav_meditation"
+            android:icon="@drawable/lotus1"
+            android:title="Meditation" />
+
+        <item
+            android:id="@+id/nav_change_pass"
+            android:icon="@drawable/lock"
+            android:title="Change Password" />
+
+    </group>
+</menu>

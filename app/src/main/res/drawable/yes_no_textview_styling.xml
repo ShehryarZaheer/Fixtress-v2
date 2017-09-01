@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!--To make a circle around the text-->
+        <item android:drawable="@drawable/oval" android:state_pressed="false"></item>
+
+        <!--To change the color when pressed the Button-->
+        <item android:drawable="@drawable/click_button" android:state_pressed="true"></item>
+    </selector>
+<!--</shape>-->
